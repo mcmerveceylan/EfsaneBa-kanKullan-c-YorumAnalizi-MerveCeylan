@@ -6,7 +6,7 @@ Efsane Başkan - Kullanıcı Yorum Analizi
  ** Analiz Adımları
 1. Google Play Store’dan yorumların çekilmesi (`google-play-scraper` kullanılarak)
 2. Yorumların temizlenmesi (stopwords, emoji temizleme)
-3. **Duygu Analizi** (Pozitif / Nötr / Negatif) → VADER + Türkçe özel kelime listesi
+3. **Duygu Analizi** (Pozitif / Nötr / Negatif) → VADER
 4. **Kelime Frekansı Analizi** → en çok kullanılan kelimeler
 5. **Zaman Serisi Analizi** → güncellemelerden önce/sonra duygu değişimi
 6. Görselleştirmeler (bar grafikleri, zaman serisi grafikleri, opsiyonel kelime bulutu)
